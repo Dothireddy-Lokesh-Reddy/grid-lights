@@ -1,0 +1,27 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+ul.block-container {
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+li.box {
+    padding: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: lightgray;
+}
+li.active {
+    background-color: yellow;
+}
